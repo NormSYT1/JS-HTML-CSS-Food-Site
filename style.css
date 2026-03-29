@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    background-color: orange;
+     background: linear-gradient(135deg, #8B0000, #e3651d);
     padding: 20px;
     text-align: center;
    font-size: 25px;
@@ -32,7 +32,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: black;
+    color: blue;
     text-decoration: none;
     
 }
@@ -62,7 +62,7 @@ nav ul li a:hover{
 
 .hero{
     /*background-image: url("img/MainBG.jpg");*/
-    background-color: yellowgreen;
+    background: linear-gradient(135deg, #f1f8e9, #dcedc8);
     background-size: cover;
     background-position: center;
     color: black;
