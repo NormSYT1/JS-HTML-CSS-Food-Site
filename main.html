@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YEMEK SİTESİ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/BG.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>LEZZETLİ YEMEKLER</h1>
+        <nav>
+            <ul>
+                <li> <a href="main.html">Anasayfa</a></li>
+                <li><a href="credits.html">Hakkımızda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Yemek Ara..."/>
+        <button type="submit" onclick="aramaYap()">Ara</button>     
+    </div>
+
+    <div class="hero">
+        <h1>Lezzetli Yemeklerin Tek Adresi</h1>
+            <a href="https://yemek.com/tarif/" target="_blank">Yemekleri Keşfet</a>
+    </div>
+
+
+    <section class="promotion">
+        <h2>İNDİRİMLİ YEMEKLER</h2>
+        <div class="menu-items">
+
+            <div class="menu-item">
+                 <img src="img/İskender.jpg" alt="">
+                 <h3>İskender</h3>
+                 <p>
+                     Yoğurt ve tereyağı ile soslanmış döner
+                 </p>
+                 <span><del>400 TL</del> 300 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item">
+                 <img src="img/Adana_Kebab.png" alt="">
+                 <h3>Adana Kebap</h3>
+                 <p>
+                    Kuzu ve Dana etiyle yapılan közlenmiş sebzelerle servis edilen yemek
+                 </p>
+                 <span><del>350 TL</del> 250 TL</span>
+                    <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item">
+                 <img src="img/Lahmacun.png" alt="">
+                 <h3>Lahmacun</h3>
+                 <p>
+                     İnce hamur üstüne kıyma,soğan,baharat karışımı lezzeti
+                 </p>
+                 <span><del>100 TL</del> 80 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="featured">
+        <h2>POPÜLER YEMEKLER</h2>
+        <div class="menu-items">
+
+            <div class="menu-item">
+                 <img src="img/İçli_Köfte.png" alt="">
+                 <h3>İçli Köfte</h3>
+                 <p>
+                   İnce bulgur dış kaplama içinde baharatlı kıyma harcıyla hazırlanan geleneksel lezzet
+                 </p>
+                 <span>190 TL</span>
+                 <button class="order-button">Sipariş Ver</button>
+                 <Popüler class="tag" >Popüler</span>
+            </div>
+
+            <div class="menu-item">
+                 <img src="img/Tavuk_Döner.png" alt="">
+                 <h3>Tavuk Döner</h3>
+                 <p>
+                    Özel marine edilmiş tavuk etinin közde pişirilip lavaş veya pilavla sunulması
+                 </p>
+                 <span>220 TL</span>
+                 <button class="order-button">Sipariş Ver</button>
+                 <Popüler class="tag" >Popüler</span>
+            </div>
+
+            <div class="menu-item">
+                 <img src="img/Pizza.png" alt="">
+                 <h3>Pizza</h3>
+                 <p>
+                     Sucuk,sosis,mantar,erimiş peynir gibi zengin malzemelerle hazırlanan sıcak lezzet
+                </p>
+                <span>330 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+                <Popüler class="tag" >Popüler</span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="sweets">
+        <h2>TATLILAR</h2>
+        <div class="menu-items">
+
+            <div class="menu-item">
+                 <img src="img/Tiramisu.png" alt="">
+                 <h3>Tiramisu(Dilim)</h3>
+                 <p>
+                    Kahve aromalı kreması ve yumuşak kekiyle İtalyan usulü hafif tatlı
+                 </p>
+                 <span>180 TL</span>
+                 <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item">
+                 <img src="img/Fıstık_Sarma.png" alt="">
+                 <h3>Fıstık Sarma(Kilo)</h3>
+                 <p>
+                    Bol Antep fıstığı ile hazırlanan ince katlı şerbetli tatlı
+                 </p>
+                 <span>900 TL</span>
+                 <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="img/Baklava.png" alt="">
+                <h3>Baklava(Kilo)</h3>
+                <p>
+                  İncecik hamurlar arasında ceviz veya fıstık ile hazırlanan geleneksel şerbetli tatlı
+                </p>
+                <span>650 TL</span>
+                <button class="order-button">Sipariş Ver</button>       
+            </div>
+
+            <div class="menu-item">
+                 <img src="img/Cheesecake.png" alt="">
+                 <h3>Cheesecake(Dilim)</h3>
+                 <p>
+                   Kremamsı peynir dolgusu ve bisküvi tabanı ile hazırlanan hafif ve ferah tatlı
+                 </p>
+                 <span>210 TL</span>
+                 <button class="order-button">Sipariş Ver</button>           
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p>
+            2026 Lezzetli Yemekler Sitesi
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

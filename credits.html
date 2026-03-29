@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda - Lezzetli Yemekler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/BG.png" type="image/x-icon">
+    <style>
+        .about-section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .about-hero {
+            background-color: orange;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .about-hero h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .about-hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .about-cards {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .about-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 30px;
+            width: calc(33% - 20px);
+            text-align: center;
+        }
+
+        .about-card h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #e3651d;
+        }
+
+        .about-card p {
+            font-size: 15px;
+            line-height: 1.7;
+            color: #555;
+        }
+
+        .about-story {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 40px;
+            margin-top: 40px;
+            line-height: 1.8;
+            font-size: 16px;
+            color: #444;
+        }
+
+        .about-story h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #e3651d;
+        }
+
+        .team {
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        .team h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #e3651d;
+        }
+
+        .team-cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .team-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 25px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .team-card .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: orange;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+
+        .team-card h4 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .team-card p {
+            font-size: 13px;
+            color: #888;
+        }
+
+        @media (max-width: 480px) {
+            .about-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>LEZZETLİ YEMEKLER</h1>
+        <nav>
+            <ul>
+                <li><a href="main.html">Anasayfa</a></li>
+                <li><a href="credits.html">Hakkımızda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="about-hero">
+        <h1>Hakkımızda</h1>
+        <p>Lezzetin ve kalitenin tek adresi olarak 2010'dan beri hizmetinizdeyiz.</p>
+    </div>
+
+    <div class="about-section">
+
+        <div class="about-cards">
+            <div class="about-card">
+                <h3>🍽️ Misyonumuz</h3>
+                <p>Geleneksel Türk lezzetlerini modern sunum anlayışıyla buluşturarak her lokmada mutluluk yaratmak.</p>
+            </div>
+            <div class="about-card">
+                <h3>🌟 Vizyonumuz</h3>
+                <p>Türkiye'nin en sevilen yemek markası olmak ve lezzetlerimizi dünyaya taşımak.</p>
+            </div>
+            <div class="about-card">
+                <h3>💚 Değerlerimiz</h3>
+                <p>Taze malzeme, hijyenik ortam ve müşteri memnuniyeti bizim için her şeyin önünde gelir.</p>
+            </div>
+        </div>
+
+        <div class="about-story">
+            <h2>Hikayemiz</h2>
+            <p>
+                2010 yılında küçük bir mutfakta başlayan yolculuğumuz, bugün binlerce mutlu müşteriye ulaşan bir markaya dönüştü. 
+                Kurucumuz Mehmet Usta, annesinden öğrendiği tarifleri ve tutkusunu bir araya getirerek bu işe adım attı.
+                Yıllar içinde büyüyen ailemiz, her zaman aynı ilkeyle çalıştı: <strong>kaliteden ödün vermemek.</strong>
+            </p>
+            <br>
+            <p>
+                Bugün İskender'den Baklavaya, Adana Kebap'tan Tiramisuya kadar geniş menümüzle sofranıza lezzet getirmeye devam ediyoruz.
+                Her yemeğimiz özenle hazırlanır, taze malzemelerle pişirilir ve sevgiyle servis edilir.
+            </p>
+        </div>
+
+        <div class="team">
+            <h2>Ekibimiz</h2>
+            <div class="team-cards">
+                <div class="team-card">
+                    <div class="avatar">👨‍🍳</div>
+                    <h4>Mehmet Usta</h4>
+                    <p>Kurucu & Baş Aşçı</p>
+                </div>
+                <div class="team-card">
+                    <div class="avatar">👩‍🍳</div>
+                    <h4>Ayşe Hanım</h4>
+                    <p>Tatlı Şefi</p>
+                </div>
+                <div class="team-card">
+                    <div class="avatar">👨‍💼</div>
+                    <h4>Ali Bey</h4>
+                    <p>Müdür</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>
+            2026 Lezzetli Yemekler Sitesi
+        </p>
+    </footer>
+
+</body>
+</html>
