@@ -83,7 +83,7 @@ nav ul li a:hover{
 .order-button{
     display: block;
     margin: 0 auto;
-    margin-top: 10px !important;
+    margin-top: auto !important;
     background-color: #ff5733;
     color: black;
     padding: 10px 20px;
@@ -118,9 +118,11 @@ position: relative;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 20px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .menu-item:hover{
@@ -143,6 +145,7 @@ position: relative;
     display: block;
     font-weight: bold;
     color: green;
+    margin-bottom: 5px;
 }
 
 del{
